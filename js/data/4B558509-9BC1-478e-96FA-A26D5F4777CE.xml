@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Uce cases", "EARoot/EA2/EA58.htm", "182.png", "14", "0", "", "CompositeStructure diagram0","{247DCEDD-6652-48e7-8154-28B2D5042ED1}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Uce cases", "EARoot/EA2/EA60.htm", "175.png", "10", "0", "", "Logical diagram0","{C28379F5-9D99-4b64-B8D4-7209EB8B6492}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«block» Lift1_Besturingssysteem", "EARoot/EA2/EA63.htm", "5.png", "E28", "0", "", "Class0","{F2A6E2E2-81F5-4418-A144-135B5CE68F11}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«block» Lift3_Besturingssysteem", "EARoot/EA2/EA64.htm", "5.png", "E27", "0", "", "Class0","{6581E78F-0AAC-49e2-A6A9-6A9CFFF4CC6A}");
