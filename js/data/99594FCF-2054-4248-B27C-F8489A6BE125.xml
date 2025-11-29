@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.2.3:1", "", "«ValueType» Energie", "EARoot/EA1/EA2/EA3/EA195.htm", "230.png", "E94", "0", "", "DataType0","{F21653E5-3F66-473c-BA2C-24EE5094263A}");
+tocTab[tocTab.length] = new Array("0.1.2.3:2", "", "«ValueType» Lengte", "EARoot/EA1/EA2/EA3/EA196.htm", "230.png", "E93", "0", "", "DataType0","{48950666-4357-4573-A637-6AF074201B43}");
+tocTab[tocTab.length] = new Array("0.1.2.3:3", "", "«ValueType» Massa", "EARoot/EA1/EA2/EA3/EA197.htm", "230.png", "E86", "0", "", "DataType0","{B1586A4D-FD36-440d-AAD3-E413F3D30F91}");
+tocTab[tocTab.length] = new Array("0.1.2.3:4", "", "«ValueType» Snelheid", "EARoot/EA1/EA2/EA3/EA198.htm", "230.png", "E87", "0", "", "DataType0","{1E9061BC-2920-4bff-B38E-3603989AF7EF}");
+tocTab[tocTab.length] = new Array("0.1.2.3:5", "", "«ValueType» Tijd", "EARoot/EA1/EA2/EA3/EA199.htm", "230.png", "E92", "0", "", "DataType0","{ECA7D30B-01CE-4ce2-B66A-94A8E483B770}");
+tocTab[tocTab.length] = new Array("0.1.2.3:6", "", "«ValueType» Vermogen", "EARoot/EA1/EA2/EA3/EA200.htm", "230.png", "E95", "0", "", "DataType0","{A7C4A886-ED72-4988-B34B-4738A097C091}");
