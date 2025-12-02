@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LiftSysteem</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA87.png" usemap="#EA87" border="0" />
+
+<MAP NAME="EA87">
+<area shape="rect" coords="572,333,687,417" href="EA90.htm" target="_self">
+<area shape="rect" coords="672,68,850,187" href="EA91.htm" target="_self">
+<area shape="rect" coords="435,212,540,282" href="EA93.htm" target="_self">
+<area shape="rect" coords="434,92,539,162" href="EA92.htm" target="_self">
+<area shape="rect" coords="220,91,325,161" href="EA98.htm" target="_self">
+<area shape="rect" coords="220,567,325,637" href="EA96.htm" target="_self">
+<area shape="rect" coords="220,333,325,403" href="EA94.htm" target="_self">
+<area shape="rect" coords="57,508,102,598" href="../../EA1/EA2/EA36.htm" target="_self">
+<area shape="rect" coords="57,382,102,472" href="../../EA1/EA2/EA31.htm" target="_self">
+<area shape="rect" coords="57,278,102,368" href="../../EA1/EA2/EA38.htm" target="_self">
+<area shape="rect" coords="57,180,102,270" href="../../EA1/EA2/EA32.htm" target="_self">
+<area shape="rect" coords="57,78,102,168" href="../../EA1/EA2/EA29.htm" target="_self">
+<area shape="rect" coords="220,452,325,522" href="EA95.htm" target="_self">
+<area shape="rect" coords="220,203,325,273" href="EA97.htm" target="_self">
+<area shape="rect" coords="134,47,930,679" href="EA89.htm" target="_self">
+<area shape="rect" coords="10,10,973,733" href="EA86.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">LiftSysteem : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">01/12/2025 16:23:07</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">01/12/2025 18:05:15</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">max</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F29B29F0-9990-4fd5-BB04-4BEC1E8F087D}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

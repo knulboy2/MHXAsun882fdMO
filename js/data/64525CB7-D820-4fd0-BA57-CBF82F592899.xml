@@ -1,2 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.1", "1", "CEO & Stakeholders Diagrammen", "EARoot/EA1/EA1/EA16.htm", "4.png", "", "", "{3DC4C1F2-DCBE-4524-9FEE-6B42E5D7E85C}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "System Engineer Diagrammen", "EARoot/EA1/EA2/EA86.htm", "4.png", "", "", "{4B558509-9BC1-478e-96FA-A26D5F4777CE}", "Package");
+tocTab[tocTab.length] = new Array("0.1", "1", "0_Algemeen", "EARoot/EA1/EA6.htm", "4.png", "", "", "{2B875E4F-ED2E-4c14-9923-ACCF53A72736}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "1_Eisen_en_Usecases", "EARoot/EA2/EA57.htm", "4.png", "", "", "{2CA563FB-E5B5-43c0-AA5A-48C6835C6A1C}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "2_Structuur", "EARoot/EA3/EA99.htm", "4.png", "", "", "{C83411D3-FB89-4e1a-B515-B8CDA6515E1F}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "3_Gedrag", "EARoot/EA4/EA175.htm", "4.png", "", "", "{85ACF1F2-3E45-4eda-8FE2-CC0DEC5240A1}", "Package");
