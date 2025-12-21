@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.1", "1", "0.1 Begrippen en ValueTypes", "EARoot/EA1/EA1/EA31.htm", "4.png", "", "", "{2B2A9AB8-5081-45c2-94D0-88B6335286EB}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "0.2 Domeinmodel", "EARoot/EA1/EA2/EA48.htm", "4.png", "", "", "{810F444D-2E52-4ef8-9603-B1DE29B0AEAA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.1", "1", "0.1 Begrippen en ValueTypes", "EARoot/EA1/EA1/EA1/EA31.htm", "4.png", "", "", "{2B2A9AB8-5081-45c2-94D0-88B6335286EB}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "0.2 Domeinmodel", "EARoot/EA1/EA1/EA2/EA48.htm", "4.png", "", "", "{810F444D-2E52-4ef8-9603-B1DE29B0AEAA}", "Package");
