@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>2.1_SysteemArchitectuur::Lift</title>
+<title>2.1_SysteemArchitectuur::DeurSubSysteem</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,11 +34,11 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Lift", " : "))</script>  : Public  &lt;&lt;block&gt;&gt; Block</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DeurSubSysteem", " : "))</script>  : Public  &lt;&lt;block&gt;&gt; Block</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">28/11/2025 16:57:07</td>
+			<td width="85%" class="ObjectDetailsValue">28/11/2025 16:39:53</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -87,18 +87,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{73DD207B-E6C3-4381-AA48-42C187EE9381}</td>
+			<td class="ObjectDetailsValue">{E2D5CC71-4F9A-4091-B5FE-D2FC4ABE8461}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA130.htm">Lift Parameters</a>, <a href="EA132.htm">Liftsysteem Decompositie</a>, <a href="EA128.htm">Interne Structuur</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA4/EA2/EA406.htm">Uitvoeren toeristentour</a>, <a href="../../EA4/EA2/EA404.htm">Bewonersrit met storing</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -125,8 +126,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink187" onclick="parent.toggleDiv('detailsDIVLink187','DetailsImageLink187')" />Details:
-							<div id="detailsDIVLink187" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink171" onclick="parent.toggleDiv('detailsDIVLink171','DetailsImageLink171')" />Details:
+							<div id="detailsDIVLink171" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -135,261 +136,240 @@ function nameClassifier(name, separator)
 
 			</table>
 		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA139.htm">«block» CabinePaneel</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">signalTourStart()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink188" onclick="parent.toggleDiv('detailsDIVLink188','DetailsImageLink188')" />Details:
-							<div id="detailsDIVLink188" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage172" onclick="parent.toggleDiv('detailsDIVMessage172', 'DetailsImageMessage172')" />Details:
+							<div id="detailsDIVMessage172" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA145.htm">«block» LiftController</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGeopend()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink189" onclick="parent.toggleDiv('detailsDIVLink189','DetailsImageLink189')" />Details:
-							<div id="detailsDIVLink189" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage173" onclick="parent.toggleDiv('detailsDIVMessage173', 'DetailsImageMessage173')" />Details:
+							<div id="detailsDIVMessage173" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA146.htm">«block» LiftVeiligheidsUnit</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGeopend()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink190" onclick="parent.toggleDiv('detailsDIVLink190','DetailsImageLink190')" />Details:
-							<div id="detailsDIVLink190" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage174" onclick="parent.toggleDiv('detailsDIVMessage174', 'DetailsImageMessage174')" />Details:
+							<div id="detailsDIVMessage174" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA144.htm">«block» LiftCabine</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGesloten()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink191" onclick="parent.toggleDiv('detailsDIVLink191','DetailsImageLink191')" />Details:
-							<div id="detailsDIVLink191" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage175" onclick="parent.toggleDiv('detailsDIVMessage175', 'DetailsImageMessage175')" />Details:
+							<div id="detailsDIVMessage175" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA137.htm">«InterfaceBlock» BesturingSubsystem</a><br />
-						InterfaceBlock &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> liften<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGeopend()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink192" onclick="parent.toggleDiv('detailsDIVLink192','DetailsImageLink192')" />Details:
-							<div id="detailsDIVLink192" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage176" onclick="parent.toggleDiv('detailsDIVMessage176', 'DetailsImageMessage176')" />Details:
+							<div id="detailsDIVMessage176" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA138.htm">«block» CabineDeurUnit</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGesloten()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink193" onclick="parent.toggleDiv('detailsDIVLink193','DetailsImageLink193')" />Details:
-							<div id="detailsDIVLink193" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage177" onclick="parent.toggleDiv('detailsDIVMessage177', 'DetailsImageMessage177')" />Details:
+							<div id="detailsDIVMessage177" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA148.htm">«block» SchachtDeurUnit</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">deurenGesloten()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage178" onclick="parent.toggleDiv('detailsDIVMessage178', 'DetailsImageMessage178')" />Details:
+							<div id="detailsDIVMessage178" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
 					</td>
 				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink194" onclick="parent.toggleDiv('detailsDIVLink194','DetailsImageLink194')" />Details:
-							<div id="detailsDIVLink194" class="DetailsDiv" >
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">blokkeerDeuren()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage179" onclick="parent.toggleDiv('detailsDIVMessage179', 'DetailsImageMessage179')" />Details:
+							<div id="detailsDIVMessage179" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA140.htm">«block» HalPaneel</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">sluitDeuren()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink195" onclick="parent.toggleDiv('detailsDIVLink195','DetailsImageLink195')" />Details:
-							<div id="detailsDIVLink195" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage180" onclick="parent.toggleDiv('detailsDIVMessage180', 'DetailsImageMessage180')" />Details:
+							<div id="detailsDIVMessage180" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA136.htm">«block» AandrijfUnit</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">sluitDeuren()</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink196" onclick="parent.toggleDiv('detailsDIVLink196','DetailsImageLink196')" />Details:
-							<div id="detailsDIVLink196" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage181" onclick="parent.toggleDiv('detailsDIVMessage181', 'DetailsImageMessage181')" />Details:
+							<div id="detailsDIVMessage181" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA149.htm">«block» SensorCluster</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">sluitDeuren(TorenLift)</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink197" onclick="parent.toggleDiv('detailsDIVLink197','DetailsImageLink197')" />Details:
-							<div id="detailsDIVLink197" class="DetailsDiv" >
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage182" onclick="parent.toggleDiv('detailsDIVMessage182', 'DetailsImageMessage182')" />Details:
+							<div id="detailsDIVMessage182" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA147.htm">«block» RemUnit</a><br />
-						Block &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">modus(Normaal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage183" onclick="parent.toggleDiv('detailsDIVMessage183', 'DetailsImageMessage183')" />Details:
+							<div id="detailsDIVMessage183" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
 					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink198" onclick="parent.toggleDiv('detailsDIVLink198','DetailsImageLink198')" />Details:
-							<div id="detailsDIVLink198" class="DetailsDiv" >
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">openDeuren(TorenLift,  verd=10)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage184" onclick="parent.toggleDiv('detailsDIVMessage184', 'DetailsImageMessage184')" />Details:
+							<div id="detailsDIVMessage184" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">openDeuren(Lift,  huidigeVerd)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage185" onclick="parent.toggleDiv('detailsDIVMessage185', 'DetailsImageMessage185')" />Details:
+							<div id="detailsDIVMessage185" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">openDeuren(TorenLift, 1)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage186" onclick="parent.toggleDiv('detailsDIVMessage186', 'DetailsImageMessage186')" />Details:
+							<div id="detailsDIVMessage186" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA153.htm">«block» BesturingssubSysteem</a></td>
+					<td width="50%" class="TableRow" valign="top">openDeuren(Lift,  doelVerd)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage187" onclick="parent.toggleDiv('detailsDIVMessage187', 'DetailsImageMessage187')" />Details:
+							<div id="detailsDIVMessage187" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
@@ -426,101 +406,10 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA139.htm">«block» CabinePaneel</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA143.htm">«block» Lift3</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA145.htm">«block» LiftController</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA146.htm">«block» LiftVeiligheidsUnit</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA144.htm">«block» LiftCabine</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA141.htm">«block» Lift1</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
 					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA2/EA57.htm">«block» LiftSysteemIconisch</a></td>
 					<td width="10%" class="TableRow" valign="top">Block</td>
 					<td width="10%" class="TableRow" valign="top">Strong</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA138.htm">«block» CabineDeurUnit</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA148.htm">«block» SchachtDeurUnit</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA142.htm">«block» Lift2</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA140.htm">«block» HalPaneel</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA136.htm">«block» AandrijfUnit</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA149.htm">«block» SensorCluster</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA147.htm">«block» RemUnit</a></td>
-					<td width="10%" class="TableRow" valign="top">Block</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

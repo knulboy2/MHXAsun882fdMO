@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>serviceFloorRange = 0..3: Etages</title>
+<title>ctrl</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../../EA1/EA1/EA33.htm">«ValueType» Etages</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("serviceFloorRange = 0..3", " : "))</script>  : Public   Property</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ctrl", " : "))</script>  : Public  &lt;&lt;FlowPort&gt;&gt; FlowPort</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">21/12/2025 20:48:42</td>
+			<td width="85%" class="ObjectDetailsValue">21/12/2025 00:27:08</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">21/12/2025 23:34:44</td>
+			<td class="ObjectDetailsValue">21/12/2025 00:27:21</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,7 +87,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{20D1AB89-367B-402f-B726-B55B3BE61467}</td>
+			<td class="ObjectDetailsValue">{AE8173D4-73BE-4a3f-8FBE-F880E4DD381F}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -97,17 +97,49 @@ function nameClassifier(name, separator)
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">direction</td>
+				<td width="50%" class="TableRow" valign="top">inout</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario230" onclick="parent.toggleDiv('detailsDIVScenario230','DetailsImageScenario230')" />Details:
+						<div id="detailsDIVScenario230" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: in,out,inout,none<br />Default: inout<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isReference:</td>
-				<td width="70%" class="TableRow">False</td>
+				<td width="30%" class="TableRow">isBehavior:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isConjugated:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isService:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>
@@ -137,7 +169,7 @@ function nameClassifier(name, separator)
 
 			<tr>
 				<td width="30%" class="TableRow">aggregation:</td>
-				<td width="70%" class="TableRow">none</td>
+				<td width="70%" class="TableRow">composite</td>
 			</tr>
 
 			<tr>

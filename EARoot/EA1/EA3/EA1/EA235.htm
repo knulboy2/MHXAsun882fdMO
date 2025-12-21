@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>supportedModes = {Normal}</title>
+<title>ctrl</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("supportedModes = {Normal}", " : "))</script>  : Public   Property</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ctrl", " : "))</script>  : Public  &lt;&lt;FlowPort&gt;&gt; FlowPort</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">20/12/2025 22:05:51</td>
+			<td width="85%" class="ObjectDetailsValue">20/12/2025 22:27:38</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">21/12/2025 20:50:13</td>
+			<td class="ObjectDetailsValue">21/12/2025 00:25:38</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,7 +87,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{65D5CE28-37B8-4e8c-B88D-1C861B1AE5B6}</td>
+			<td class="ObjectDetailsValue">{FE1F2DD4-284B-4020-9084-A78CD8F0381E}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -97,17 +97,49 @@ function nameClassifier(name, separator)
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">direction</td>
+				<td width="50%" class="TableRow" valign="top">inout</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario233" onclick="parent.toggleDiv('detailsDIVScenario233','DetailsImageScenario233')" />Details:
+						<div id="detailsDIVScenario233" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: in,out,inout,none<br />Default: inout<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isReference:</td>
-				<td width="70%" class="TableRow">False</td>
+				<td width="30%" class="TableRow">isBehavior:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isConjugated:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isService:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>
@@ -137,7 +169,7 @@ function nameClassifier(name, separator)
 
 			<tr>
 				<td width="30%" class="TableRow">aggregation:</td>
-				<td width="70%" class="TableRow">none</td>
+				<td width="70%" class="TableRow">composite</td>
 			</tr>
 
 			<tr>

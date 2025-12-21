@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>: CabinePaneel</title>
+<title>ctrlPoort</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="EA139.htm">«block» CabinePaneel</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   Property</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ctrlPoort", " : "))</script>  : Public  &lt;&lt;FlowPort&gt;&gt; FlowPort</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">21/12/2025 21:36:23</td>
+			<td width="85%" class="ObjectDetailsValue">29/11/2025 14:55:13</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">21/12/2025 21:36:23</td>
+			<td class="ObjectDetailsValue">29/11/2025 14:55:28</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,7 +87,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{D2C71FDC-64FD-49af-BF25-08A75181B808}</td>
+			<td class="ObjectDetailsValue">{8C18DB6D-1BBD-4ed9-A65E-56E3B8E3FAA1}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -97,22 +97,49 @@ function nameClassifier(name, separator)
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">direction</td>
+				<td width="50%" class="TableRow" valign="top">inout</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario211" onclick="parent.toggleDiv('detailsDIVScenario211','DetailsImageScenario211')" />Details:
+						<div id="detailsDIVScenario211" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: in,out,inout,none<br />Default: inout<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">_connectorRef:</td>
-				<td width="70%" class="TableRow"><SOURCE></td>
+				<td width="30%" class="TableRow">isBehavior:</td>
+				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isReference:</td>
-				<td width="70%" class="TableRow">False</td>
+				<td width="30%" class="TableRow">isConjugated:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isService:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>
@@ -142,7 +169,7 @@ function nameClassifier(name, separator)
 
 			<tr>
 				<td width="30%" class="TableRow">aggregation:</td>
-				<td width="70%" class="TableRow">none</td>
+				<td width="70%" class="TableRow">composite</td>
 			</tr>
 
 			<tr>

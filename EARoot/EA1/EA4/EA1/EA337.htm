@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bewoner</title>
+<title>[1]</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Bewoner", " : "))</script>  : Public   ActivityPartition</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   ActionPin</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">29/11/2025 23:12:52</td>
+			<td width="85%" class="ObjectDetailsValue">29/11/2025 22:44:33</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">29/11/2025 23:13:03</td>
+			<td class="ObjectDetailsValue">29/11/2025 23:46:30</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -79,7 +79,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">1..1</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
@@ -87,18 +87,43 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{025A537A-D121-4f1a-9265-D6F246C5738B}</td>
+			<td class="ObjectDetailsValue">{4712E6C0-0DE8-4e9d-8BFD-75041BDBB2B3}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA283.htm">Bewoners Mode</a></td>
+			<td class="ObjectDetailsValue"><a href="EA315.htm">Toeristen Mode</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA328.htm">persoon</a><br />
+						ActivityParameter &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow291" onclick="parent.toggleDiv('detailsDIVLinkFlow291', 'DetailsImageLinkFlow291')" />Details:
+							<div id="detailsDIVLinkFlow291" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -106,13 +131,43 @@ function nameClassifier(name, separator)
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isDimension:</td>
+				<td width="30%" class="TableRow">isStream:</td>
+				<td width="70%" class="TableRow">False</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isException:</td>
+				<td width="70%" class="TableRow">False</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isOrdered:</td>
 				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isExternal:</td>
+				<td width="30%" class="TableRow">isUnique:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isControl:</td>
 				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isControlType:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">ordering:</td>
+				<td width="70%" class="TableRow">FIFO</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">kind:</td>
+				<td width="70%" class="TableRow">input</td>
 			</tr>
 
 

@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.4.1", "1", "3.1 Activiteiten", "EARoot/EA1/EA4/EA1/EA293.htm", "4.png", "", "", "{B3BAE2D0-30BB-4a72-9E2C-D76181D6F869}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.2", "1", "3.2 Sequence&#39;s", "EARoot/EA1/EA4/EA2/EA384.htm", "4.png", "", "", "{BF015824-6824-4d6d-8934-CC459A4FD8D6}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.3", "1", "3.3 Toestandsmachines", "EARoot/EA1/EA4/EA3/EA394.htm", "4.png", "", "", "{5498852E-D1A3-4a9d-95BB-5FA578EF393D}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.4", "1", "3.4 Triggers en Signalen", "EARoot/EA1/EA4/EA4/EA413.htm", "4.png", "", "", "{EAB48F96-D0AB-407b-846B-349E05533BB9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1", "1", "3.1 Activiteiten", "EARoot/EA1/EA4/EA1/EA317.htm", "4.png", "", "", "{B3BAE2D0-30BB-4a72-9E2C-D76181D6F869}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2", "1", "3.2 Sequence&#39;s", "EARoot/EA1/EA4/EA2/EA408.htm", "4.png", "", "", "{BF015824-6824-4d6d-8934-CC459A4FD8D6}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.3", "1", "3.3 Toestandsmachines", "EARoot/EA1/EA4/EA3/EA418.htm", "4.png", "", "", "{5498852E-D1A3-4a9d-95BB-5FA578EF393D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.4", "1", "3.4 Triggers en Signalen", "EARoot/EA1/EA4/EA4/EA437.htm", "4.png", "", "", "{EAB48F96-D0AB-407b-846B-349E05533BB9}", "Package");
