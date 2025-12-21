@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.1.4.2:1", "", "Bewonersrit met storing", "EARoot/EA1/EA4/EA2/EA277.htm", "185.png", "72", "0", "", "Sequence diagram0","{0778D742-914E-43f0-8D39-333F12D8E16F}");
-tocTab[tocTab.length] = new Array("0.1.4.2:2", "", "Uitvoeren toeristentour", "EARoot/EA1/EA4/EA2/EA279.htm", "185.png", "71", "0", "", "Sequence diagram0","{6EF15B38-1D1E-4aed-A0E6-E09AC8BFCB08}");
-tocTab[tocTab.length] = new Array("0.1.4.2:3", "", "", "EARoot/EA1/EA4/EA2/EA282.htm", "101.png", "E413", "0", "", "InteractionFragment0","{61F5A24E-5F17-4941-99E1-AC8F115D6B8B}");
-tocTab[tocTab.length] = new Array("0.1.4.2:4", "", "", "EARoot/EA1/EA4/EA2/EA283.htm", "101.png", "E409", "0", "", "InteractionFragment0","{17E4641A-7C7E-45e4-B19F-EE411A811230}");
-tocTab[tocTab.length] = new Array("0.1.4.2:5", "", "", "EARoot/EA1/EA4/EA2/EA284.htm", "101.png", "E411", "0", "", "InteractionFragment0","{35EFB04E-871E-425c-9C6C-9A588F186109}");
-tocTab[tocTab.length] = new Array("0.1.4.2:6", "", "", "EARoot/EA1/EA4/EA2/EA285.htm", "101.png", "E412", "0", "", "InteractionFragment0","{71C1737E-23F7-4742-B52F-2D273FD5A03E}");
-tocTab[tocTab.length] = new Array("0.1.4.2:7", "", "liftBeschikbaar", "EARoot/EA1/EA4/EA2/EA286.htm", "101.png", "E408", "0", "", "InteractionFragment0","{1A479D21-75BB-4e31-B126-D58FC5DA6B89}");
+tocTab[tocTab.length] = new Array("0.4.2:1", "", "Bewonersrit met storing", "EARoot/EA4/EA2/EA380.htm", "185.png", "72", "0", "", "Sequence diagram0","{0778D742-914E-43f0-8D39-333F12D8E16F}");
+tocTab[tocTab.length] = new Array("0.4.2:2", "", "Uitvoeren toeristentour", "EARoot/EA4/EA2/EA382.htm", "185.png", "71", "0", "", "Sequence diagram0","{6EF15B38-1D1E-4aed-A0E6-E09AC8BFCB08}");
+tocTab[tocTab.length] = new Array("0.4.2:3", "", "", "EARoot/EA4/EA2/EA385.htm", "101.png", "E413", "0", "", "InteractionFragment0","{61F5A24E-5F17-4941-99E1-AC8F115D6B8B}");
+tocTab[tocTab.length] = new Array("0.4.2:4", "", "", "EARoot/EA4/EA2/EA386.htm", "101.png", "E409", "0", "", "InteractionFragment0","{17E4641A-7C7E-45e4-B19F-EE411A811230}");
+tocTab[tocTab.length] = new Array("0.4.2:5", "", "", "EARoot/EA4/EA2/EA387.htm", "101.png", "E411", "0", "", "InteractionFragment0","{35EFB04E-871E-425c-9C6C-9A588F186109}");
+tocTab[tocTab.length] = new Array("0.4.2:6", "", "", "EARoot/EA4/EA2/EA388.htm", "101.png", "E412", "0", "", "InteractionFragment0","{71C1737E-23F7-4742-B52F-2D273FD5A03E}");
+tocTab[tocTab.length] = new Array("0.4.2:7", "", "liftBeschikbaar", "EARoot/EA4/EA2/EA389.htm", "101.png", "E408", "0", "", "InteractionFragment0","{1A479D21-75BB-4e31-B126-D58FC5DA6B89}");
